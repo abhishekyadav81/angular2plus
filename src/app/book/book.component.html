@@ -1,0 +1,12 @@
+<p>
+  book works!
+</p>
+
+<button (click)="getBookData()"> Get Books</button>
+
+<ul>
+  <li *ngFor="let book of books">
+    BOOK ID -> {{book.bookId}},     BOOK NAME -> {{book.bookName}},     BOOK AUTHOR -> {{book.bookAuthor}}    
+  </li>
+</ul>
+
